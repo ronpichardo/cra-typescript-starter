@@ -1,0 +1,29 @@
+react  // React framework
+react-dom  // React's DOM framework
+core-js  // Polyfills for a lot of ECMAScript methods
+regenerator-runtime // Polyfill for runtime
+
+/* Webpack */
+webpack
+webpack-cli
+
+/* Babel core and presets to transpile TypeScript */
+@babel/core 
+@babel/preset-env 
+@babel/preset-react 
+@babel/preset-typescript
+
+/* Type Definitions for React */
+@types/react 
+@types/react-dom babel-loader
+
+/* For transpiling SASS */
+style-loader 
+css-loader
+node-sass
+sass-loader
+
+/* For better debugging */
+source-map-loader
+ts-loader
+typescript
